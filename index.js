@@ -1,4 +1,4 @@
-module.exports = rec709;
+module.exports = rec601;
 module.exports.rec601 = rec601;
 module.exports.rec709 = rec709;
 

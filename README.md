@@ -15,7 +15,7 @@ var Y = luminance(255, 25, 125);
 
 ## coefficients
 
-The exported function uses the [Rec. 709 standard](http://en.wikipedia.org/wiki/Rec._709) for coefficients (used in most HDTV formats). 
+The exported function uses the [Rec. 601 standard](http://en.wikipedia.org/wiki/Rec._601) for coefficients (used in most digital video formats). 
 
 More details [here](http://haugk.co.uk/2012/11/22/luma-rec-601-vs-rec-709/).
 
