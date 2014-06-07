@@ -33,3 +33,7 @@ var y1 = luminance.rec709(r, g, b);
 //R * 0.299 + G * 0.587 + B * 0.114
 var y2 = luminance.rec601(r, g, b);
 ```
+
+# license
+
+BSD-3-Clause
