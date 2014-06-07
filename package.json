@@ -6,7 +6,9 @@
     "type": "git",
     "url": "git://github.com/mattdesl/color-luminance.git"
   },
-  "bugs": "git://github.com/mattdesl/color-luminance/issues",
+  "bugs": {
+    "url": "git://github.com/mattdesl/color-luminance/issues"
+  },
   "main": "index.js",
   "author": "Matt DesLauriers",
   "license": "BSD-3-Clause",
@@ -29,5 +31,21 @@
   "dependencies": {},
   "devDependencies": {
     "tape": "~2.13.2"
-  }
+  },
+  "homepage": "https://github.com/mattdesl/color-luminance",
+  "keywords": [
+    "color",
+    "luma",
+    "luminance",
+    "brightness",
+    "lightness",
+    "rgb",
+    "hsl",
+    "hsv",
+    "yuv",
+    "gray",
+    "grayscale",
+    "grey",
+    "greyscale"
+  ]
 }
