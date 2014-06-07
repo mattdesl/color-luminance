@@ -13,13 +13,13 @@ var Y = luminance(255, 25, 125);
 
 ## coefficients
 
-This uses the [Rec. 709 standard](http://en.wikipedia.org/wiki/Rec._709) for coefficients (used in most HDTV formats). 
+The exported function uses the [Rec. 709 standard](http://en.wikipedia.org/wiki/Rec._709) for coefficients (used in most HDTV formats). 
 
 More details [here](http://haugk.co.uk/2012/11/22/luma-rec-601-vs-rec-709/).
 
-You can use the more explicit functions like so, depending on your needs:
+You can instead use the more explicit functions like so, depending on your needs:
 
-```
+```js
 var luminance = require('color-luminance');
 
 //Uses Rec. 709 (HDTV) coefficients
