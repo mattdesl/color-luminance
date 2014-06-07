@@ -1,0 +1,13 @@
+var test = require('tape').test;
+var luminance = require('./');
+
+test('luminance functions exist', function(t) {
+    var R = 12,
+        G = 41,
+        B = 62;
+
+    t.equal( luminance(R, G, B), 36.3508, 'should export rec709 by default' );
+    t.equal( luminance.rec709(R, G, B), 36.3508, 'should export rec709 as a method' );
+    t.equal( luminance.rec601(R, G, B), 34.723, 'should export rec601 as a method' );
+    t.end();
+});
