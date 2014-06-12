@@ -1,6 +1,7 @@
 var test = require('tape').test;
 var luminance = require('./');
 
+//test cases
 test('luminance functions exist', function(t) {
     var R = 12,
         G = 41,
