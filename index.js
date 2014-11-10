@@ -14,6 +14,12 @@ module.exports.rec709 = rec709;
  * @return {Number}   the calculated luminance
  */
 function rec601(r, g, b) {
+    if (Array.isArray(r)) {
+        var a = r;
+        r = a[0];
+        g = a[1];
+        b = a[2];
+    }
     return r * 0.299 + g * 0.587 + b * 0.114;
 }
 
@@ -29,5 +35,11 @@ function rec601(r, g, b) {
  * @return {Number}   the calculated luminance
  */
 function rec709(r, g, b) {
+    if (Array.isArray(r)) {
+        var a = r;
+        r = a[0];
+        g = a[1];
+        b = a[2];
+    }
     return r * 0.2126 + g * 0.7152 + b * 0.0722;
 }
