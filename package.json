@@ -1,7 +1,7 @@
 {
   "name": "color-luminance",
   "description": "bare-bones color luminance functions",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/mattdesl/color-luminance.git"
